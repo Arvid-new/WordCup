@@ -1,0 +1,32 @@
+Brazil,0
+Croatia,4
+Mexico,5
+Cameroon,1
+Spain,0
+Netherlands,3
+Chile,6
+Australia,2
+Colombia,6
+Greece,4
+Ivory Coast,1
+Japan,2
+Uruguay,6
+Costa Rica,5
+England,3
+Italy,3
+Switzerland,3
+Ecuador,6
+France,3
+Honduras,5
+Argentina,0
+Bosnia-Hercegovina,4
+Iran,2
+Nigeria,1
+Germany,0
+Portugal,3
+Ghana,1
+USA,5
+Belgium,3
+Algeria,1
+Russia,4
+South Korea,2

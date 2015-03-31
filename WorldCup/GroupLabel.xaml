@@ -1,0 +1,53 @@
+﻿<UserControl x:Class="WorldCup.GroupLabel"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="150" d:DesignWidth="400" Margin="5">
+    <Grid>
+        <Grid.Effect>
+            <DropShadowEffect Direction="270" BlurRadius="0" ShadowDepth="1.5" Color="#FFA2A2A2"/>
+        </Grid.Effect>
+        <Border CornerRadius="10" BorderBrush="#FF252525" BorderThickness="1">
+            <Border.Background>
+                <LinearGradientBrush EndPoint="0.5,0" MappingMode="RelativeToBoundingBox" StartPoint="0.5,1">
+                    <GradientStop Color="#FFF0F0F0" Offset="0.6"/>
+                    <GradientStop Color="White" Offset="0.8"/>
+                </LinearGradientBrush>
+            </Border.Background>
+            <Grid ClipToBounds="True" Margin="5,0,5,2">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"/>
+                    <ColumnDefinition Width="375"/>
+                </Grid.ColumnDefinitions>
+                <Label Name="GroupName" VerticalAlignment="Center" Grid.Column="0"/>
+                <Grid Grid.Column="1" Name="GroupTable">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="30"/>
+                        <ColumnDefinition Width="50"/>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="25"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="30"/>
+                    </Grid.RowDefinitions>
+                    <Label Content="Team" Grid.Column="0" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="P" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="W" Grid.Column="2" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="D" Grid.Column="3" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="L" Grid.Column="4" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="GD" Grid.Column="5" Grid.Row="0" HorizontalAlignment="Center"/>
+                    <Label Content="Points" Grid.Column="6" Grid.Row="0" HorizontalAlignment="Center"/>
+                </Grid>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,12 @@
+﻿<Window x:Class="WorldCup.AllTeamList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="AllTeamList" Height="500" Width="300">
+    <Grid Height="500">
+        <ScrollViewer VerticalScrollBarVisibility="Visible">
+            <Canvas Height="1200" Name="TeamList">
+
+            </Canvas>
+        </ScrollViewer>
+    </Grid>
+</Window>

@@ -1,0 +1,64 @@
+12.06,21:00,Sao Paulo,ITV,2,3-0-0,0-0-0
+13.06,17:00,Natal,ITV,0
+13.06,20:00,Salvador,BBC,0
+13.06,23:00,Cuiaba,ITV,0
+14.06,17:00,Belo Horizonte,BBC,0
+14.06,02:00,Recife,ITV,0
+14.06,20:00,Fortaleza,ITV,0
+14.06,23:00,Manaus,BBC,0
+15.06,17:00,Brasilia,ITV,0
+15.06,20:00,Porto Alegre,BBC,0
+15.06,23:00,Rio De Janiero,BBC,0
+16.06,20:00,Curitiba,BBC,0
+16.06,17:00,Salvador,ITV,0
+16.06,23:00,Natal,BBC,0
+17.06,17:00,Belo Horizonte,ITV,0
+17.06,23:00,Cuiaba,BBC,0
+17.06,20:00,Fortaleza,BBC,3,0-0-0,1-0-0
+18.06,23:00,Manaus,ITV,0
+18.06,17:00,Rio De Janiero,ITV,0
+18.06,20:00,Porto Alegre,BBC,0
+19.06,17:00,Brasilia,BBC,0
+19.06,23:00,Natal,BBC,0
+19.06,20:00,Sao Paulo,ITV,0
+20.06,17:00,Recife,BBC,0
+20.06,20:00,El Salvador,ITV,0
+20.06,23:00,Curitiba,ITV,0
+21.06,17:00,Belo Horizonte,ITV,0
+21.06,23:00,Cuiaba,BBC,0
+21.06,20:00,Fortaleza,BBC,0
+22.06,23:00,Manaus,BBC,0
+22.06,17:00,Rio De Janiero,BBC,0
+22.06,20:00,Porto Alegre,ITV,0
+23.06,21:00,Brasilia,ITV,0
+23.06,21:00,Recife,ITV,0
+23.06,17:00,Curitiba,ITV,0
+23.06,17:00,Sao Paulo,ITV,0
+24.06,21:00,Cuiaba,BBC,0
+24.06,21:00,Fortaleza,BBC,0
+24.06,17:00,Natal,ITV,0
+24.06,17:00,Belo Horizonte,ITV,0
+25.06,21:00,Manaus,BBC,0
+25.06,21:00,Rio De Janiero,BBC,0
+25.06,17:00,Porto Alegre,ITV,0
+25.06,17:00,Sao Paulo,ITV,0
+26.06,17:00,Recife,BBC,0
+26.06,17:00,Brasilia,BBC,0
+26.06,21:00,Sao Paulo,ITV,0
+26.06,21:00,Curitiba,ITV,0
+28.06,17:00,Belo Horizonte,TBC,0
+28.06,21:00,Rio De Janiero,TBC,0
+29.06,17:00,Fortaleza,TBC,0
+29.06,21:00,Recife,TBC,0
+30.06,17:00,Brasilia,TBC,0
+30.06,21:00,Porto Alegre,TBC,0
+01.07,17:00,Sao Paulo,TBC,0
+01.07,21:00,Salvador,TBC,0
+04.07,21:00,Fortaleza,TBC,0
+04.07,17:00,Rio De Janiero,TBC,0
+05.07,21:00,Salvador,TBC,0
+05.07,17:00,Brasilia,TBC,0
+08.07,21:00,Belo Horizonte,TBC,0
+09.07,21:00,Sao Paulo,TBC,0
+12.07,20:00,Brasilia,ITV,0
+13.07,21:00,Rio De Janiero,BBC,0

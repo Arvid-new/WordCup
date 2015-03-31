@@ -1,0 +1,176 @@
+﻿<Window x:Class="WorldCup.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="World Cup 2014" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <TabControl Name="MainTabControl" Margin="10" TabStripPlacement="Bottom" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+            <TabItem Name="Groups" Header="Groups">
+                <TabPanel Background="Transparent">
+                    <Grid Name="GroupDisplay">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="160"/>
+                            <RowDefinition Height="160"/>
+                            <RowDefinition Height="160"/>
+                            <RowDefinition Height="160"/>                         
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </TabPanel>
+            </TabItem>
+            <TabItem Name="GroupGames" Header="Group Games">
+                <TabPanel Width="1000" Background="Transparent">
+                    <ScrollViewer HorizontalAlignment="Right" HorizontalContentAlignment="Right">
+                        <Grid Name="GroupGamesGrids">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="30"/>
+                                <ColumnDefinition Width="920"/>
+                            </Grid.ColumnDefinitions>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                                <RowDefinition Height="170"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </ScrollViewer>
+                </TabPanel>
+            </TabItem>
+            <TabItem Name="KnockoutLeft" Header="Knockout 1">
+                <TabPanel Width="1000" Background="Transparent">
+                    <Grid Height="600">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="400"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Name="LastSixteenLeft" Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <Grid Name="LastEightLeft" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <Grid Name="LastFourLeft" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <Grid Name="Finals" Grid.Column="3">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="200"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </Grid>
+                </TabPanel>
+            </TabItem>
+            <TabItem Name="KnockoutRight" Header="Knockout 2">
+                <TabPanel Width="1000" Background="Transparent">
+                    <Grid Height="600">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                            <ColumnDefinition Width="300"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid Name="LastFourRight" Grid.Column="0">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <Grid Name="LastEightRight" Grid.Column="1">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                        <Grid Name="LastSixteenRight" Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                        </Grid>
+                    </Grid>
+                </TabPanel>
+            </TabItem>
+            <TabItem Name="FinalsTab" Header="Finals">
+                <TabPanel Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Grid Name="FinalsGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="420"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="210"/>
+                            <RowDefinition Height="210"/>
+                        </Grid.RowDefinitions>
+                    </Grid>
+                </TabPanel>
+            </TabItem>
+            <TabItem Name="GoalsTableProgress" Header="Goals">
+                <TabPanel Background="Transparent" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Grid Name="GoalsGrid">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="100"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                            <ColumnDefinition Width="200"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="25"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="50"/>
+                            <RowDefinition Height="30"/>
+                            <RowDefinition Height="30"/>
+                        </Grid.RowDefinitions>
+                        
+                        <Label Content="Region" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Optimum" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Right"/>
+                        <Label Content="Dad" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Right"/>
+                        <Label Content="Alex" Grid.Row="0" Grid.Column="3" HorizontalAlignment="Right"/>
+                        <Label Content="Favourites" Grid.Row="1" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Africa" Grid.Row="2" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Asia/Australasia" Grid.Row="3" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Western Europe" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Eastern Europe" Grid.Row="5" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="North America" Grid.Row="6" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="South America" Grid.Row="7" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Selected Goals" Grid.Row="8" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Content="Total Goals" Grid.Row="9" Grid.Column="0" HorizontalAlignment="Right"/>
+                        <Label Name="CurrentGoals" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right"/>
+                        <Label Name="DadGoals" Grid.Row="8" Grid.Column="2" HorizontalAlignment="Right"/>
+                        <Label Name="AlexGoals" Grid.Row="8" Grid.Column="3" HorizontalAlignment="Right"/>
+                        <Label Name="PredictedGoals" Grid.Row="9" Grid.Column="1" HorizontalAlignment="Right"/>
+                        <Label Name="DadPredictedGoals" Grid.Row="9" Grid.Column="2" HorizontalAlignment="Right"/>
+                        <Label Name="AlexPredictedGoals" Grid.Row="9" Grid.Column="3" HorizontalAlignment="Right"/>
+                    </Grid>
+                </TabPanel>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>
